@@ -24,7 +24,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Mechanical KeyboardSET ROSA ENCANTADA",
+    name: "ROSA ENCANTADA",
     price: 59,
     image: "../../src/assets/rosa-encantada.png",
     description:
