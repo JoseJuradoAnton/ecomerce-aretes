@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "Brillantes Tornasolados",
     price: 270,
-    image: "../../../brillantes.png",
+    image: "../brillantes.png",
     description:
       "LOS TONOS DEL CRISTAL SON BRILLANTES Y EN ALGUNOS TORNASOLADOS",
   },
@@ -11,7 +11,7 @@ const products = [
     id: 2,
     name: "Collar moon",
     price: 249.99,
-    image: "../../src/assets/collar-moon.png",
+    image: "../collar-moon.png",
     description:
       "Collar doble con dije de luna y estrella. Elaborado en plata 925.",
   },
@@ -19,14 +19,14 @@ const products = [
     id: 3,
     name: "Set RUBY",
     price: 289,
-    image: "../../src/assets/ruby.png",
+    image: "../ruby.png",
     description: "SET DE RUBY",
   },
   {
     id: 4,
     name: "ROSA ENCANTADA",
     price: 59,
-    image: "../../src/assets/rosa-encantada.png",
+    image: "../rosa-encantada.png",
     description:
       "RSet con dije de flor con circón fucsia. Elaborado en cobre bañado en oro de 18k..",
   },
@@ -34,7 +34,7 @@ const products = [
     id: 5,
     name: "COLLAR MERYL",
     price: 39.99,
-    image: "../../src/assets/dije-corazon.png",
+    image: "../dije-corazon.png",
     description:
       "Collar con dije de corazón de cristal. Elaborado en plata 925.",
   },
@@ -42,21 +42,21 @@ const products = [
     id: 6,
     name: "ARETES DELICATE",
     price: 219,
-    image: "../../src/assets/aretes-rose.png",
+    image: "../aretes-rose.png",
     description: "Aretes en forma de rosa. Elaborado en plata bañada en oro.",
   },
   {
     id: 7,
     name: "ARETES PEPAS",
     price: 40,
-    image: "../../src/assets/aretes-pepas.png",
+    image: "../aretes-pepas.png",
     description: "Aretes Tipo Gota",
   },
   {
     id: 8,
     name: "arete tuc",
     price: 89.99,
-    image: "../../src/assets/aretes-turco.png",
+    image: "../aretes-turco.png",
     description: "Ojo Turco con circones",
   },
 ];
