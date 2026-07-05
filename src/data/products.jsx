@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "Brillantes Tornasolados",
     price: 270,
-    image: "../../src/assets/brillantes.png",
+    image: "/src/assets/brillantes.png",
     description:
       "LOS TONOS DEL CRISTAL SON BRILLANTES Y EN ALGUNOS TORNASOLADOS",
   },
