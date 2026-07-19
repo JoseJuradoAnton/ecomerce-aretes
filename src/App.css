@@ -319,6 +319,7 @@ body {
 
 .checkout-item-details {
   flex: 1;
+  text-align: left;
 }
 
 .checkout-item-name {
@@ -357,6 +358,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: background-color 0.2s;
+  color: black;
 }
 
 .quantity-btn:hover {
@@ -528,5 +530,6 @@ body {
 
   .checkout-item-controls {
     align-items: flex-start;
+    text-align: left;
   }
 }

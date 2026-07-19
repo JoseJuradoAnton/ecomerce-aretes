@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext } from "react";
 import { AuthContext } from "./AuthContext";
+import { getProductById } from "../data/products";
 
 export const CartContext = createContext(null);
 
@@ -19,8 +20,19 @@ export default function CartProvider({ children }) {
     }
   }
 
+  function getCartItemsWithProducts() {
+    return cartItems
+      .map((item) => ({
+        ...item,
+        product: getProductById(item.id),
+      }))
+      .filter((item) => item.product);
+  }
+
   return (
-    <CartContext.Provider value={{ cartItems, addToCart }}>
+    <CartContext.Provider
+      value={{ cartItems, addToCart, getCartItemsWithProducts }}
+    >
       {children}
     </CartContext.Provider>
   );
